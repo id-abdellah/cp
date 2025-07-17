@@ -1,0 +1,12 @@
+{
+  "name": "competetive-programming",
+  "version": "1.0.0",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  }
+}
