@@ -1,12 +1,18 @@
 {
   "name": "competetive-programming",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {},
   "keywords": [],
   "author": "",
   "license": "MIT",
   "description": "",
   "devDependencies": {
+    "@types/md5": "^2.3.5",
+    "@types/node": "^24.0.14",
     "tsx": "^4.20.3"
+  },
+  "dependencies": {
+    "md5": "^2.3.0"
   }
 }
