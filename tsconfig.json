@@ -1,0 +1,15 @@
+{
+    "include": [
+        "**/*.ts",
+        "vitest-env.d.ts",
+        "mytest.test.ts"
+    ],
+    "compilerOptions": {
+        "types": [
+            "vitest"
+        ],
+        "moduleResolution": "nodenext",
+        "module": "nodenext",
+        "target": "ESNext"
+    }
+}

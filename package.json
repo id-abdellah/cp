@@ -2,7 +2,9 @@
   "name": "competetive-programming",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "test": "vitest"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
@@ -10,7 +12,9 @@
   "devDependencies": {
     "@types/md5": "^2.3.5",
     "@types/node": "^24.0.14",
-    "tsx": "^4.20.3"
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
   },
   "dependencies": {
     "md5": "^2.3.0"

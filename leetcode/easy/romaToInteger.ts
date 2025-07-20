@@ -2,6 +2,8 @@
  * Converte Roman numbers to Normal Numbers
  */
 
+import { expect, it } from "vitest";
+
 
 function romanToInt(s: string) {
     const SYMBOLS: Record<string, number> = {
@@ -34,24 +36,17 @@ function romanToInt(s: string) {
 }
 
 
-[
-    {
-        input: "MCMXCIV",
-        output: 1994
-    },
-    {
-        input: "I",
-        output: 1
-    },
-    {
-        input: "LVIII",
-        output: 58
-    },
-    {
-        input: "III",
-        output: 3
-    }
-].forEach(test => {
-    const result = romanToInt(test.input);
-    console.log(result === test.output ? "passed" : "failed")
-})
+if (import.meta.vitest) {
+    it("test case 1", () => {
+        expect(romanToInt("MCMXCIV")).toBe(1994)
+    })
+    it("test case 2", () => {
+        expect(romanToInt("I")).toBe(1)
+    })
+    it("test case 3", () => {
+        expect(romanToInt("LVIII")).toBe(58)
+    })
+    it("test case 4", () => {
+        expect(romanToInt("III")).toBe(3)
+    })
+}
