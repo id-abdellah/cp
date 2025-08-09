@@ -10,6 +10,9 @@
         ],
         "moduleResolution": "nodenext",
         "module": "nodenext",
-        "target": "ESNext"
+        "target": "ESNext",
+        "allowImportingTsExtensions": true,
+        "emitDeclarationOnly": true,
+        "declaration": true
     }
 }
