@@ -2,7 +2,8 @@
     "include": [
         "**/*.ts",
         "vitest-env.d.ts",
-        "mytest.test.ts"
+        "mytest.test.ts",
+        "adventOfCode/2016/solution-01.js"
     ],
     "compilerOptions": {
         "types": [
