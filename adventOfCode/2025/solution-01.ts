@@ -1,10 +1,9 @@
-import { X509Certificate } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import path from "node:path/win32";
 
 const inputContent = (
    await readFile(
-      path.join(import.meta.dirname, "./inputs/input-01.txt"),
+      path.join(import.meta.dirname, "./input-01.txt"),
       "utf-8",
    )
 ).trim();
